@@ -30,7 +30,7 @@ export function ElementToolbar() {
               draggable
               onDragStart={(e) => handleDragStart(e, type)}
             >
-              <Icon className="h-4 w-4" />
+{/*               <Icon className="h-4 w-4" /> */}
               {label}
             </Button>
           </div>
